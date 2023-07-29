@@ -1,0 +1,103 @@
+name: disaoled_people
+description: A new Flutter project.
+
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.0 <3.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+
+
+  #firbase
+  firebase_core: ^2.4.0
+  firebase_auth: ^4.2.0
+  firebase_storage: ^11.0.7
+  flutter_auth_ui: ^3.1.0
+  cloud_firestore: ^4.2.0
+  
+
+  #state managment
+  provider: ^6.0.4
+  equatable: ^2.0.5
+
+  image_picker: ^0.8.6
+  path_provider: ^2.0.11
+  flutter_svg:
+  #json
+  json_annotation: ^4.7.0 
+  #ui
+  pin_code_fields: ^7.4.0
+  cached_network_image: ^3.2.1
+  percent_indicator:
+  flutter_rounded_date_picker: ^3.0.4 
+  
+  #chat
+  stream_chat_flutter_core: ^4.0.0 
+  stream_chat_flutter: ^4.0.0
+  jiffy: ^5.0.0
+
+  flutter_datetime_picker_plus:
+  shared_preferences: ^2.0.20
+  readmore: ^2.2.0
+  card_swiper: ^2.0.4
+  flutter_slidable:
+  dropdown_search: ^5.0.6
+  #for game
+  audioplayers: ^4.0.1
+  confetti: ^0.7.0
+  flutter_rating_bar: ^4.0.1 
+  photo_manager:
+   
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: 
+  json_serializable: 
+
+
+  flutter_lints: ^2.0.0
+
+
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/game/A/
+    - assets/game/B/
+    - assets/game/C/
+    - assets/game/D/
+    - assets/game/E/
+    - assets/game/F/
+    - assets/game/G/
+    - assets/
+
+
+
+  fonts:
+    - family: Sukar
+      fonts:
+        - asset: assets/fonts/SukarBold.ttf
+        - asset: assets/fonts/SukarRegular.ttf
+
+  
+

@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "252673283223",
+    "project_id": "disabled-people",
+    "storage_bucket": "disabled-people.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:252673283223:android:b3003a9d2d29a5bc1ec5d2",
+        "android_client_info": {
+          "package_name": "com.example.disaoled_people"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "252673283223-uo520ual40qclhnel1olhgpq6j5ueht1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8HlfLPwZ8R57zikM6JPNT-QJTaBUkfwo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "252673283223-uo520ual40qclhnel1olhgpq6j5ueht1.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "252673283223-c3ajpca9amn129j8vll70ud7v03nqchm.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.disaoledPeople"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
