@@ -89,7 +89,10 @@ flutter:
     - assets/game/E/
     - assets/game/F/
     - assets/game/G/
+    - assets/game/Z/
+
     - assets/
+    - assets/game/characters/
 
 
 

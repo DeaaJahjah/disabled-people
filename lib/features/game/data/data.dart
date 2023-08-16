@@ -171,7 +171,7 @@ final List<Level> levels = [
       levelExampleSound: 'game/G/example.mp3',
       isVisted: false),
   Level(
-      id: 24,
+      id: 25,
       name: 'الكاف',
       levelImage: 'assets/game/characters/16.png',
       levelExampleImage: 'assets/game/characters/16.png',
@@ -179,7 +179,7 @@ final List<Level> levels = [
       levelExampleSound: 'game/G/example.mp3',
       isVisted: false),
   Level(
-      id: 25,
+      id: 26,
       name: 'اللام',
       levelImage: 'assets/game/characters/17.png',
       levelExampleImage: 'assets/game/characters/17.png',
@@ -187,7 +187,7 @@ final List<Level> levels = [
       levelExampleSound: 'game/G/example.mp3',
       isVisted: false),
   Level(
-      id: 26,
+      id: 27,
       name: 'الميم',
       levelImage: 'assets/game/characters/18.png',
       levelExampleImage: 'assets/game/characters/18.png',
@@ -195,7 +195,7 @@ final List<Level> levels = [
       levelExampleSound: 'game/G/example.mp3',
       isVisted: false),
   Level(
-      id: 27,
+      id: 28,
       name: 'النون',
       levelImage: 'assets/game/characters/19.png',
       levelExampleImage: 'assets/game/characters/19.png',
@@ -203,7 +203,7 @@ final List<Level> levels = [
       levelExampleSound: 'game/G/example.mp3',
       isVisted: false),
   Level(
-      id: 28,
+      id: 29,
       name: 'الهاء',
       levelImage: 'assets/game/characters/19.png',
       levelExampleImage: 'assets/game/characters/19.png',
@@ -211,7 +211,7 @@ final List<Level> levels = [
       levelExampleSound: 'game/G/example.mp3',
       isVisted: false),
   Level(
-      id: 29,
+      id: 30,
       name: 'الواو',
       levelImage: 'assets/game/characters/20.png',
       levelExampleImage: 'assets/game/characters/20.png',
@@ -219,7 +219,7 @@ final List<Level> levels = [
       levelExampleSound: 'game/G/example.mp3',
       isVisted: false),
   Level(
-      id: 26,
+      id: 31,
       name: 'الميم',
       levelImage: 'assets/game/characters/18.png',
       levelExampleImage: 'assets/game/characters/18.png',
@@ -227,7 +227,7 @@ final List<Level> levels = [
       levelExampleSound: 'game/G/example.mp3',
       isVisted: false),
   Level(
-      id: 27,
+      id: 32,
       name: 'الياء',
       levelImage: 'assets/game/Z/z.png',
       levelExampleImage: 'assets/game/Z/z example.png',

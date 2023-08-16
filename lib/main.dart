@@ -11,7 +11,7 @@ void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   SharedPref.sharedPreferences = await SharedPreferences.getInstance();
 
-  final client = StreamChatClient('wpj6hynwk7zg');
+  final client = StreamChatClient('tc23cud7dwe7');
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
   );

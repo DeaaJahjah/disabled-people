@@ -32,53 +32,55 @@ class _GameLevelsScreenState extends State<GameLevelsScreen> {
                   fit: BoxFit.cover),
             ),
             child: Center(
-              child: Column(
-                children: [
-                  Row(children: [
-                    Padding(
-                      padding: const EdgeInsets.all(14.0),
-                      child: InkWell(
-                        onTap: () => Navigator.of(context).pop(),
-                        child: Image.asset(
-                          'assets/images/back.png',
-                          width: 30,
-                          height: 30,
+              child: SingleChildScrollView(
+                child: Column(
+                  children: [
+                    Row(children: [
+                      Padding(
+                        padding: const EdgeInsets.all(14.0),
+                        child: InkWell(
+                          onTap: () => Navigator.of(context).pop(),
+                          child: Image.asset(
+                            'assets/images/back.png',
+                            width: 30,
+                            height: 30,
+                          ),
+                        ),
+                      )
+                    ]),
+                    Text(
+                      'الأحرف',
+                      style: Theme.of(context).textTheme.bodyMedium!.copyWith(color: secondaryColor, fontSize: 26),
+                    ),
+                    sizedBoxLarge,
+                    sizedBoxLarge,
+                    GridView.builder(
+                      physics: const NeverScrollableScrollPhysics(),
+                      shrinkWrap: true,
+                      itemCount: levels.length,
+                      padding: const EdgeInsets.all(10),
+                      gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 3),
+                      itemBuilder: (context, index) => Container(
+                        padding: const EdgeInsets.all(2),
+                        margin: const EdgeInsets.all(5),
+                        decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(borderRadius),
+                          // levels[index].isVisted ? 4 : 1
+                          border: Border.all(color: secondaryColor, width: 2),
+                        ),
+                        child: InkWell(
+                          onTap: () => Navigator.of(context).pushNamed(LevelScreen.routeName,
+                              arguments: levels.indexWhere((element) => element.id == levels[index].id)),
+                          child: Image.asset(
+                            levels[index].levelImage,
+                            width: 60,
+                            height: 60,
+                          ),
                         ),
                       ),
                     )
-                  ]),
-                  Text(
-                    'الأحرف',
-                    style: Theme.of(context).textTheme.bodyMedium!.copyWith(color: secondaryColor, fontSize: 26),
-                  ),
-                  sizedBoxLarge,
-                  sizedBoxLarge,
-                  GridView.builder(
-                    physics: const NeverScrollableScrollPhysics(),
-                    shrinkWrap: true,
-                    itemCount: levels.length,
-                    padding: const EdgeInsets.all(10),
-                    gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 3),
-                    itemBuilder: (context, index) => Container(
-                      padding: const EdgeInsets.all(2),
-                      margin: const EdgeInsets.all(5),
-                      decoration: BoxDecoration(
-                        borderRadius: BorderRadius.circular(borderRadius),
-                        // levels[index].isVisted ? 4 : 1
-                        border: Border.all(color: secondaryColor, width: 2),
-                      ),
-                      child: InkWell(
-                        onTap: () => Navigator.of(context).pushNamed(LevelScreen.routeName,
-                            arguments: levels.indexWhere((element) => element.id == levels[index].id)),
-                        child: Image.asset(
-                          levels[index].levelImage,
-                          width: 60,
-                          height: 60,
-                        ),
-                      ),
-                    ),
-                  )
-                ],
+                  ],
+                ),
               ),
             )),
       ),
